@@ -11,9 +11,9 @@ class PosNegZero
         System.out.print("Enter any integer number: ");
        
         if(a>0)
-            System.out.println(num + " is POSITIVE NUMBER.");
+            System.out.println(a + " is POSITIVE NUMBER.");
         else if(a<0)
-            System.out.println(num + " is NEGATIVE NUMBER.");
+            System.out.println(a + " is NEGATIVE NUMBER.");
         else
             System.out.println("IT's ZERO.");
          
