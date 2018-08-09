@@ -2,11 +2,11 @@ import java.util.*;
  
 class PosNegZero
 {
-    public static void main(String []s)
+    public static void main(String  args[])
     {
         int a;
         
-        Scanner a=new Scanner(System.in);
+        Scanner sc=new Scanner(System.in);
          
         System.out.print("Enter any integer number: ");
        
