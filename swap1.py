@@ -1,5 +1,5 @@
-m=input()
-m=m.split()
-b=m[0]
-c=m[1]
-print(c,b)
+a,b=[int(a) for a input().split()]
+a^=b
+b^=a
+a^=b
+print(a,b)
