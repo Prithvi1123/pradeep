@@ -7,15 +7,13 @@ class PosNegZero
         int a;
         
         Scanner sc=new Scanner(System.in);
-         
-        System.out.print("Enter any integer number: ");
        
         if(a>0)
-            System.out.println(a + " is POSITIVE NUMBER.");
+            System.out.println("positive");
         else if(a<0)
-            System.out.println(a + " is NEGATIVE NUMBER.");
+            System.out.println("negative");
         else
-            System.out.println("IT's ZERO.");
+            System.out.println("zero");
          
     }
 }
