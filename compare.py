@@ -1,7 +1,9 @@
-s,n=input().split()
-s=str(s)
-n=str(n)
-if len(s)>=len(n):
-      print(s)
+a,b=input().split()
+a=str(a)
+b=str(b)
+if len(a)>len(b):
+      print(a)
+elif len(a)==len(b):
+      print(b)
 else:
-      print(n)
+      print(b)
